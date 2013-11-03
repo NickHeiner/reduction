@@ -1,0 +1,33 @@
+{
+  "name": "reduction",
+  "version": "0.1.0",
+  "description": "_.reduce with syntactic sugar",
+  "main": "lib/reduction.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickHeiner/reduction"
+  },
+  "keywords": [
+    "lodash",
+    "reduce",
+    "fp"
+  ],
+  "author": "Nick Heiner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NickHeiner/reduction/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt": "~0.4.1",
+    "grunt-mocha-test": "~0.7.0"
+  },
+  "dependencies": {
+    "op-lift": "~0.4.0",
+    "lodash": "~2.2.1"
+  }
+}
