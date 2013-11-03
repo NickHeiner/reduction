@@ -17,6 +17,12 @@ describe('reduction', function () {
         })).to.equal(6);
     });
 
+    it('handles normal lodash usage with passing an accumulator', function() {
+        expect(reduction([1, 2, 3], function(a, b) {
+            return a + b;
+        }, 5)).to.equal(11);
+    });
+
     it('handles an operator', function() {
         expect(reduction([2, 4, 8], '*')).to.equal(2 * 4 * 8);
     });
