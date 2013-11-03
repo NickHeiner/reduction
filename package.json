@@ -19,5 +19,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NickHeiner/reduction/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt": "~0.4.1",
+    "grunt-mocha-test": "~0.7.0"
   }
 }
