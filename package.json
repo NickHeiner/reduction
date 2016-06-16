@@ -15,7 +15,7 @@
     "reduce",
     "fp"
   ],
-  "author": "Nick Heiner",
+  "author": "Nick Heiner <nth23@cornell.edu>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NickHeiner/reduction/issues"
