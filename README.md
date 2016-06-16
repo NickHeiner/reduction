@@ -1,3 +1,5 @@
+![travis badge](https://travis-ci.org/NickHeiner/reduction.svg?branch=master)
+
 reduction
 =========
 
